@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Prog14{
+class Prog15{
 	public static void main(String[] args){
 		System.out.println("Enter the month you born I'll tell in which season you born");
 		Scanner scan = new Scanner(System.in);

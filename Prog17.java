@@ -1,7 +1,6 @@
-import java.util.Scanner;
 class Prog17{
 	public static void main(String[] args){
-		int[] list1 = {1, 2, 3, 4, 5, 6, 7, 8};
+		int[] list1 = {1, 2, 3, 4};
 		int[] list2 = {100, 150, 200};
 		L1: for(int i=0; i < list1.length; i++)
 		{

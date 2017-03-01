@@ -1,5 +1,5 @@
 import java.util.Scanner;
-class Prog15{
+class Prog14{
 	public static void main(String[] args){
 		System.out.println("Enter +, -, * or / to perform your operations.");
 		Scanner scan = new Scanner(System.in);
