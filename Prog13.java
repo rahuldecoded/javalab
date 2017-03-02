@@ -1,18 +1,18 @@
-import java.awt.Graphics;
-import javax.swing.JApplet;
-
-class Prog13 extends JApplet
+import javax.swing.JOptionPane;
+class Prog13
 {
-	
-	public void paint(Graphics g)
+	public static void main(String[] args)
 	{
-		int counter=1;
-		while(counter<10)
+	String s;
+	int i=1,a,sum=0;
+	s=JOptionPane.showInputDialog("Enter your number");
+	a=Integer.parseInt(s);
+	while(i<=a)
 		{
-			g.drawOval(110-counter*10,110-counter*10,counter*20,counter*20);
-			++counter;
+		sum=sum+i;
+		i++;
 		}
+	JOptionPane.showMessageDialog(null,"Average of first "+a+" numbers is "+(sum/a),"Result",JOptionPane.PLAIN_MESSAGE);
+	System.exit(0);
 	}
-	
-
 }
